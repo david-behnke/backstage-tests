@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: argo
+  description: Argo
+  
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-c
+  providesApis:
+    - argo-api
+    
