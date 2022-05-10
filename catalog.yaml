@@ -6,7 +6,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: team-jindujun
+  owner: david-behnke
   system: cicd
   definition:
     $text: https://github.com/david-behnke/backstage-tests/blob/main/swagger.json
