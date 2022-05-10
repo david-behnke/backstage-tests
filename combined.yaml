@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: brgo
+  description: Brgo
+  
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-c
+  providesApis:
+    - brgo-api
+    
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: brgo-api
+  description: API to interact with BrgoCD
+spec:
+  type: openapi
+  lifecycle: production
+  owner: david-behnke
+  system: cicd
+  definition:
+    $text: https://github.com/david-behnke/backstage-tests/blob/main/swagger.json
