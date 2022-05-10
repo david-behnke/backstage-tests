@@ -24,4 +24,4 @@ spec:
   owner: david-behnke
   system: cicd
   definition:
-    $text: https://github.com/david-behnke/backstage-tests/blob/main/swagger.json
+    $text: https://github.com/argoproj/argo-cd/blob/master/assets/swagger.json
